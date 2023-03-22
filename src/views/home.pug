@@ -1,0 +1,10 @@
+extends base
+include mixins/video
+
+block headTitle
+  h1 Main
+  button click
+  each item in videos
+    +video(item) 
+  else
+    li Sorry

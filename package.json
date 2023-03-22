@@ -1,0 +1,31 @@
+{
+  "name": "clone-youtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kim-NamGoo/clone-youtube.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kim-NamGoo/clone-youtube/issues"
+  },
+  "homepage": "https://github.com/Kim-NamGoo/clone-youtube#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@prettier/plugin-pug": "^2.4.1",
+    "prettier": "^2.8.6"
+  }
+}
